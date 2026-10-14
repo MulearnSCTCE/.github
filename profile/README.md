@@ -29,4 +29,5 @@ flowchart LR
     Us --> valid@{ shape: rect, label: "Valid Idea" } & invalid@{ shape: rect, label: "Invalid Idea" }
     invalid --> discuss@{ shape: rect, label: "No problem,<br/>we can discuss it" }
     valid --> option_learn@{ shape: rect, label: "Learn how to solve it" } & option_support@{ shape: rect, label: "Need assistance/team to work on it" }
+    
 ```
